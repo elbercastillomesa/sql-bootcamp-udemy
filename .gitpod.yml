@@ -8,8 +8,10 @@ tasks:
 ports:
   - port: 5432
     onOpen: ignore
+    description: PostgreSQL
   - port: 5050
     onOpen: open-browser
+    description: PgAdmin
 
 vscode:
   extensions:
